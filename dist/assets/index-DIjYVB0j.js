@@ -66,7 +66,7 @@ Error generating stack: `+o.message+`
     border: 1px solid transparent;
     color: white;
   }
-`,$m=({onClickHandler:e})=>T.jsxs(Lm,{children:[T.jsx("div",{children:T.jsx("img",{src:"/images/dices.png"})}),T.jsxs("div",{className:"content",children:[T.jsx("h1",{children:"Dice Game"}),T.jsx(Yu,{onClick:e,children:"Play Now"})]})]}),Lm=qe.div`
+`,$m=({onClickHandler:e})=>T.jsxs(Lm,{children:[T.jsx("div",{children:T.jsx("img",{src:"/dicegame-react/images/dices.png"})}),T.jsxs("div",{className:"content",children:[T.jsx("h1",{children:"Dice Game"}),T.jsx(Yu,{onClick:e,children:"Play Now"})]})]}),Lm=qe.div`
   max-width: 1180px;
   height: 100vh;
   margin: 0 auto;
@@ -121,7 +121,7 @@ Error generating stack: `+o.message+`
   font-weight: 500;
   background-color: ${e=>e.$isSelected?"black":"white"}; //this is how to use conditional css in styled componenets
   color: ${e=>e.$isSelected?"white":"black"};
-`,Fm=({currentDice:e,diceRollHandler:t,showHit:n})=>T.jsxs(Am,{$showHit:n==="Hit!!!",children:[T.jsx("p",{className:"show-hit",children:n}),T.jsx("div",{className:"dice",onClick:t,children:T.jsx("img",{src:`/images/dice/dice_${e}.png`})}),T.jsx("p",{className:"sub-title",children:"Click on Dice to Roll"})]}),Am=qe.div`
+`,Fm=({currentDice:e,diceRollHandler:t,showHit:n})=>T.jsxs(Am,{$showHit:n==="Hit!!!",children:[T.jsx("p",{className:"show-hit",children:n}),T.jsx("div",{className:"dice",onClick:t,children:T.jsx("img",{src:`/dicegame-react/images/dice/dice_${e}.png`})}),T.jsx("p",{className:"sub-title",children:"Click on Dice to Roll"})]}),Am=qe.div`
   margin-top: 20px;
   display: flex;
   flex-direction: column;
