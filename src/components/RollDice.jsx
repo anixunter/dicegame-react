@@ -7,7 +7,7 @@ const RollDice = ({ currentDice, diceRollHandler, showHit }) => {
     >
       <p className="show-hit">{showHit}</p>
       <div className="dice" onClick={diceRollHandler}>
-        <img src={`/images/dice/dice_${currentDice}.png`} />
+        <img src={`/dicegame-react/images/dice/dice_${currentDice}.png`} />
       </div>
       <p className="sub-title">Click on Dice to Roll</p>
     </RollDiceContainer>

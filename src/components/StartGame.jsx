@@ -5,7 +5,7 @@ const StartGame = ({ onClickHandler }) => {
   return (
     <Container>
       <div>
-        <img src="/images/dices.png" />
+        <img src="/dicegame-react/images/dices.png" />
       </div>
       <div className="content">
         <h1>Dice Game</h1>
